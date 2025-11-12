@@ -24,7 +24,7 @@ object AppModule {
     fun provideGenerativeModel(): GenerativeModel {
         // Define generation configuration
         val generationConfig = generationConfig {
-            temperature = 0.7f // Controls the randomness of the output. Lower values mean less random.
+            temperature = 0.8f // Controls the randomness of the output. Lower values mean less random.
             topK = 20          // The maximum number of tokens to sample from at each step.
             topP = 0.95f       // The cumulative probability cutoff for token selection.
             maxOutputTokens = 2048 // The maximum number of tokens to generate in a response.

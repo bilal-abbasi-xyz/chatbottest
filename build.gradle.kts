@@ -4,6 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.hilt.android) apply false
     alias(libs.plugins.compose.compiler) apply false
-    alias(libs.plugins.kotlin.kapt) apply false // <-- ADDED THIS LINE
+    alias(libs.plugins.kotlin.kapt) apply false
 
 }
