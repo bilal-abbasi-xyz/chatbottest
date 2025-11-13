@@ -40,7 +40,7 @@ object AppModule {
         )
 
         return GenerativeModel(
-            modelName = "gemini-pro",
+            modelName = "gemini-2.0-flash-latest",
             apiKey = BuildConfig.GEMINI_API_KEY,
             generationConfig = generationConfig,
             safetySettings = safetySettings
